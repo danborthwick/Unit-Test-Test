@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A0F0392150FAC3200053BF4 /* Iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0F0391150FAC3200053BF4 /* Iterator.h */; };
+		2A0F0395150FACC200053BF4 /* SimpleIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0F0393150FACC200053BF4 /* SimpleIterator.h */; };
+		2A0F0396150FACC200053BF4 /* SimpleIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F0394150FACC200053BF4 /* SimpleIterator.m */; };
+		2A0F0399150FADD400053BF4 /* IteratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F0398150FADD400053BF4 /* IteratorTests.m */; };
+		2A0F039C150FB36700053BF4 /* DuffsDeviceIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0F039A150FB36700053BF4 /* DuffsDeviceIterator.h */; };
+		2A0F039D150FB36700053BF4 /* DuffsDeviceIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F039B150FB36700053BF4 /* DuffsDeviceIterator.m */; };
+		2A0F03A0150FBC7F00053BF4 /* IteratorBuilders.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0F039E150FBC7F00053BF4 /* IteratorBuilders.h */; };
+		2A0F03A1150FBC7F00053BF4 /* IteratorBuilders.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F039F150FBC7F00053BF4 /* IteratorBuilders.m */; };
+		2A0F03A61510DB0800053BF4 /* CppStlArrayFibonacciGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0F03A51510DB0800053BF4 /* CppStlArrayFibonacciGenerator.h */; };
+		2A0F03A81510DB1E00053BF4 /* CppStlArrayFibonacciGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F03A71510DB1E00053BF4 /* CppStlArrayFibonacciGenerator.mm */; };
+		2A0F03AD1510DC4D00053BF4 /* CppStlArrayFibonacciGeneratorTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F03AC1510DC4D00053BF4 /* CppStlArrayFibonacciGeneratorTests.mm */; };
+		2A0F03B21510F28F00053BF4 /* MidpointFinderTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F03B11510F28F00053BF4 /* MidpointFinderTests.mm */; };
+		2A0F03B41510F31900053BF4 /* MidpointFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0F03B31510F31900053BF4 /* MidpointFinder.h */; };
+		2A0F03B61510F32600053BF4 /* MidpointFinder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F03B51510F32600053BF4 /* MidpointFinder.mm */; };
+		2A0F03BB151107D100053BF4 /* SingleLinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0F03BA151107D100053BF4 /* SingleLinkedList.h */; };
+		2A0F03C115110A1700053BF4 /* SingleLinkedListReverserTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F03C015110A1600053BF4 /* SingleLinkedListReverserTests.mm */; };
+		2A0F03C315110ACF00053BF4 /* SingleLinkedListReverser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0F03C215110ACF00053BF4 /* SingleLinkedListReverser.h */; };
+		2A0F03CC151294E500053BF4 /* SingleLinkedListLoopTesterTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F03CB151294E500053BF4 /* SingleLinkedListLoopTesterTests.mm */; };
+		2A0F03CE1512961100053BF4 /* SingleLinkedListLoopTester.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0F03CD1512961100053BF4 /* SingleLinkedListLoopTester.h */; };
+		2A0F03D31512981D00053BF4 /* LinkedListTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0F03D21512981D00053BF4 /* LinkedListTypes.h */; };
+		2A0F03D61512985D00053BF4 /* CharListBuilder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F03D51512985C00053BF4 /* CharListBuilder.mm */; };
+		2A0F03DC1512B5AA00053BF4 /* SingleLinkedLinkTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F03DB1512B5AA00053BF4 /* SingleLinkedLinkTests.mm */; };
+		2ADC1B1B1504E26D00371794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADC1B1A1504E26D00371794 /* Foundation.framework */; };
+		2ADC1B211504E26D00371794 /* Unit_Test_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC1B201504E26D00371794 /* Unit_Test_Test.m */; };
+		2ADC1B291504E26D00371794 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADC1B281504E26D00371794 /* SenTestingKit.framework */; };
+		2ADC1B2B1504E26D00371794 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADC1B2A1504E26D00371794 /* UIKit.framework */; };
+		2ADC1B2C1504E26D00371794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADC1B1A1504E26D00371794 /* Foundation.framework */; };
+		2ADC1B2F1504E26D00371794 /* libUnit Test Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADC1B171504E26D00371794 /* libUnit Test Test.a */; };
+		2ADC1B351504E26D00371794 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2ADC1B331504E26D00371794 /* InfoPlist.strings */; };
+		2ADC1B381504E26D00371794 /* Unit_Test_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC1B371504E26D00371794 /* Unit_Test_TestTests.m */; };
+		2ADC1B471504E3C800371794 /* FibonacciGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC1B451504E3C800371794 /* FibonacciGenerator.h */; };
+		2ADC1B481504E3C800371794 /* FibonacciGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC1B461504E3C800371794 /* FibonacciGenerator.m */; };
+		2ADC1B511504E59A00371794 /* FibonnaciGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC1B4E1504E59A00371794 /* FibonnaciGeneratorTests.m */; };
+		2ADC1B5A1504F5D100371794 /* RectangleIntersectionCheckerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC1B561504F55000371794 /* RectangleIntersectionCheckerTest.m */; };
+		2ADC1B5D1504F5FB00371794 /* RectangleIntersectionChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC1B5B1504F5FB00371794 /* RectangleIntersectionChecker.h */; };
+		2ADC1B5E1504F5FB00371794 /* RectangleIntersectionChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC1B5C1504F5FB00371794 /* RectangleIntersectionChecker.m */; };
+		2ADC1B611504F74800371794 /* Rectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC1B5F1504F74800371794 /* Rectangle.h */; };
+		2ADC1B621504F74800371794 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC1B601504F74800371794 /* Rectangle.m */; };
+		2ADC1B641504FEFB00371794 /* CppIntArrayFibonacciGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC1B631504FEFB00371794 /* CppIntArrayFibonacciGenerator.h */; };
+		2ADC1B661504FF1800371794 /* CppIntArrayFibonacciGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC1B651504FF1800371794 /* CppIntArrayFibonacciGenerator.mm */; };
+		2ADC1B6B1505005200371794 /* CPPFibonacciGeneratorTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC1B681504FFE700371794 /* CPPFibonacciGeneratorTests.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2ADC1B2D1504E26D00371794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ADC1B0E1504E26D00371794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ADC1B161504E26D00371794;
+			remoteInfo = "Unit Test Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A0F0391150FAC3200053BF4 /* Iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iterator.h; sourceTree = "<group>"; };
+		2A0F0393150FACC200053BF4 /* SimpleIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleIterator.h; sourceTree = "<group>"; };
+		2A0F0394150FACC200053BF4 /* SimpleIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleIterator.m; sourceTree = "<group>"; };
+		2A0F0397150FADD400053BF4 /* IteratorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IteratorTests.h; sourceTree = "<group>"; };
+		2A0F0398150FADD400053BF4 /* IteratorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IteratorTests.m; sourceTree = "<group>"; };
+		2A0F039A150FB36700053BF4 /* DuffsDeviceIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuffsDeviceIterator.h; sourceTree = "<group>"; };
+		2A0F039B150FB36700053BF4 /* DuffsDeviceIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuffsDeviceIterator.m; sourceTree = "<group>"; };
+		2A0F039E150FBC7F00053BF4 /* IteratorBuilders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IteratorBuilders.h; sourceTree = "<group>"; };
+		2A0F039F150FBC7F00053BF4 /* IteratorBuilders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IteratorBuilders.m; sourceTree = "<group>"; };
+		2A0F03A51510DB0800053BF4 /* CppStlArrayFibonacciGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppStlArrayFibonacciGenerator.h; sourceTree = "<group>"; };
+		2A0F03A71510DB1E00053BF4 /* CppStlArrayFibonacciGenerator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CppStlArrayFibonacciGenerator.mm; sourceTree = "<group>"; };
+		2A0F03AB1510DC4D00053BF4 /* CppStlArrayFibonacciGeneratorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppStlArrayFibonacciGeneratorTests.h; sourceTree = "<group>"; };
+		2A0F03AC1510DC4D00053BF4 /* CppStlArrayFibonacciGeneratorTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CppStlArrayFibonacciGeneratorTests.mm; sourceTree = "<group>"; };
+		2A0F03B01510F28F00053BF4 /* MidpointFinderTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidpointFinderTests.h; sourceTree = "<group>"; };
+		2A0F03B11510F28F00053BF4 /* MidpointFinderTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MidpointFinderTests.mm; sourceTree = "<group>"; };
+		2A0F03B31510F31900053BF4 /* MidpointFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidpointFinder.h; sourceTree = "<group>"; };
+		2A0F03B51510F32600053BF4 /* MidpointFinder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MidpointFinder.mm; sourceTree = "<group>"; };
+		2A0F03BA151107D100053BF4 /* SingleLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLinkedList.h; sourceTree = "<group>"; };
+		2A0F03BF15110A1600053BF4 /* SingleLinkedListReverserTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLinkedListReverserTests.h; sourceTree = "<group>"; };
+		2A0F03C015110A1600053BF4 /* SingleLinkedListReverserTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SingleLinkedListReverserTests.mm; sourceTree = "<group>"; };
+		2A0F03C215110ACF00053BF4 /* SingleLinkedListReverser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLinkedListReverser.h; sourceTree = "<group>"; };
+		2A0F03CA151294E500053BF4 /* SingleLinkedListLoopTesterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLinkedListLoopTesterTests.h; sourceTree = "<group>"; };
+		2A0F03CB151294E500053BF4 /* SingleLinkedListLoopTesterTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SingleLinkedListLoopTesterTests.mm; sourceTree = "<group>"; };
+		2A0F03CD1512961100053BF4 /* SingleLinkedListLoopTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLinkedListLoopTester.h; sourceTree = "<group>"; };
+		2A0F03D21512981D00053BF4 /* LinkedListTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedListTypes.h; sourceTree = "<group>"; };
+		2A0F03D41512985C00053BF4 /* CharListBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharListBuilder.h; sourceTree = "<group>"; };
+		2A0F03D51512985C00053BF4 /* CharListBuilder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CharListBuilder.mm; sourceTree = "<group>"; };
+		2A0F03DA1512B5AA00053BF4 /* SingleLinkedLinkTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLinkedLinkTests.h; sourceTree = "<group>"; };
+		2A0F03DB1512B5AA00053BF4 /* SingleLinkedLinkTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SingleLinkedLinkTests.mm; sourceTree = "<group>"; };
+		2ADC1B171504E26D00371794 /* libUnit Test Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUnit Test Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADC1B1A1504E26D00371794 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2ADC1B1E1504E26D00371794 /* Unit Test Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Unit Test Test-Prefix.pch"; sourceTree = "<group>"; };
+		2ADC1B1F1504E26D00371794 /* Unit_Test_Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Unit_Test_Test.h; sourceTree = "<group>"; };
+		2ADC1B201504E26D00371794 /* Unit_Test_Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Unit_Test_Test.m; sourceTree = "<group>"; };
+		2ADC1B271504E26D00371794 /* Unit Test TestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Test TestTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADC1B281504E26D00371794 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2ADC1B2A1504E26D00371794 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2ADC1B321504E26D00371794 /* Unit Test TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unit Test TestTests-Info.plist"; sourceTree = "<group>"; };
+		2ADC1B341504E26D00371794 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2ADC1B361504E26D00371794 /* Unit_Test_TestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Unit_Test_TestTests.h; sourceTree = "<group>"; };
+		2ADC1B371504E26D00371794 /* Unit_Test_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Unit_Test_TestTests.m; sourceTree = "<group>"; };
+		2ADC1B451504E3C800371794 /* FibonacciGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FibonacciGenerator.h; sourceTree = "<group>"; };
+		2ADC1B461504E3C800371794 /* FibonacciGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FibonacciGenerator.m; sourceTree = "<group>"; };
+		2ADC1B4D1504E59A00371794 /* FibonnaciGeneratorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FibonnaciGeneratorTests.h; sourceTree = "<group>"; };
+		2ADC1B4E1504E59A00371794 /* FibonnaciGeneratorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FibonnaciGeneratorTests.m; sourceTree = "<group>"; };
+		2ADC1B551504F55000371794 /* RectangleIntersectionCheckerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleIntersectionCheckerTest.h; sourceTree = "<group>"; };
+		2ADC1B561504F55000371794 /* RectangleIntersectionCheckerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleIntersectionCheckerTest.m; sourceTree = "<group>"; };
+		2ADC1B5B1504F5FB00371794 /* RectangleIntersectionChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleIntersectionChecker.h; sourceTree = "<group>"; };
+		2ADC1B5C1504F5FB00371794 /* RectangleIntersectionChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleIntersectionChecker.m; sourceTree = "<group>"; };
+		2ADC1B5F1504F74800371794 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		2ADC1B601504F74800371794 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		2ADC1B631504FEFB00371794 /* CppIntArrayFibonacciGenerator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = CppIntArrayFibonacciGenerator.h; sourceTree = "<group>"; };
+		2ADC1B651504FF1800371794 /* CppIntArrayFibonacciGenerator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CppIntArrayFibonacciGenerator.mm; sourceTree = "<group>"; };
+		2ADC1B671504FFE700371794 /* CPPFibonacciGeneratorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPPFibonacciGeneratorTests.h; sourceTree = "<group>"; };
+		2ADC1B681504FFE700371794 /* CPPFibonacciGeneratorTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CPPFibonacciGeneratorTests.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ADC1B141504E26D00371794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADC1B1B1504E26D00371794 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADC1B231504E26D00371794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADC1B291504E26D00371794 /* SenTestingKit.framework in Frameworks */,
+				2ADC1B2B1504E26D00371794 /* UIKit.framework in Frameworks */,
+				2ADC1B2C1504E26D00371794 /* Foundation.framework in Frameworks */,
+				2ADC1B2F1504E26D00371794 /* libUnit Test Test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A0F038F150FABFB00053BF4 /* Duff's Device */ = {
+			isa = PBXGroup;
+			children = (
+				2A0F0391150FAC3200053BF4 /* Iterator.h */,
+				2A0F0393150FACC200053BF4 /* SimpleIterator.h */,
+				2A0F0394150FACC200053BF4 /* SimpleIterator.m */,
+				2A0F039A150FB36700053BF4 /* DuffsDeviceIterator.h */,
+				2A0F039B150FB36700053BF4 /* DuffsDeviceIterator.m */,
+				2A0F039E150FBC7F00053BF4 /* IteratorBuilders.h */,
+				2A0F039F150FBC7F00053BF4 /* IteratorBuilders.m */,
+			);
+			name = "Duff's Device";
+			sourceTree = "<group>";
+		};
+		2A0F03A21510D49800053BF4 /* Fibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				2ADC1B451504E3C800371794 /* FibonacciGenerator.h */,
+				2ADC1B461504E3C800371794 /* FibonacciGenerator.m */,
+				2ADC1B631504FEFB00371794 /* CppIntArrayFibonacciGenerator.h */,
+				2ADC1B651504FF1800371794 /* CppIntArrayFibonacciGenerator.mm */,
+				2A0F03A51510DB0800053BF4 /* CppStlArrayFibonacciGenerator.h */,
+				2A0F03A71510DB1E00053BF4 /* CppStlArrayFibonacciGenerator.mm */,
+			);
+			name = Fibonacci;
+			sourceTree = "<group>";
+		};
+		2A0F03A31510D4AC00053BF4 /* Rectangles */ = {
+			isa = PBXGroup;
+			children = (
+				2ADC1B5B1504F5FB00371794 /* RectangleIntersectionChecker.h */,
+				2ADC1B5C1504F5FB00371794 /* RectangleIntersectionChecker.m */,
+				2ADC1B5F1504F74800371794 /* Rectangle.h */,
+				2ADC1B601504F74800371794 /* Rectangle.m */,
+			);
+			name = Rectangles;
+			sourceTree = "<group>";
+		};
+		2A0F03A41510D68F00053BF4 /* Fibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				2ADC1B4D1504E59A00371794 /* FibonnaciGeneratorTests.h */,
+				2ADC1B4E1504E59A00371794 /* FibonnaciGeneratorTests.m */,
+				2ADC1B671504FFE700371794 /* CPPFibonacciGeneratorTests.h */,
+				2ADC1B681504FFE700371794 /* CPPFibonacciGeneratorTests.mm */,
+				2A0F03AB1510DC4D00053BF4 /* CppStlArrayFibonacciGeneratorTests.h */,
+				2A0F03AC1510DC4D00053BF4 /* CppStlArrayFibonacciGeneratorTests.mm */,
+			);
+			name = Fibonacci;
+			sourceTree = "<group>";
+		};
+		2A0F03AE1510F20A00053BF4 /* Linked Lists */ = {
+			isa = PBXGroup;
+			children = (
+				2A0F03B31510F31900053BF4 /* MidpointFinder.h */,
+				2A0F03B51510F32600053BF4 /* MidpointFinder.mm */,
+				2A0F03BA151107D100053BF4 /* SingleLinkedList.h */,
+				2A0F03C215110ACF00053BF4 /* SingleLinkedListReverser.h */,
+				2A0F03CD1512961100053BF4 /* SingleLinkedListLoopTester.h */,
+				2A0F03D21512981D00053BF4 /* LinkedListTypes.h */,
+			);
+			name = "Linked Lists";
+			sourceTree = "<group>";
+		};
+		2A0F03AF1510F27000053BF4 /* Linked Lists */ = {
+			isa = PBXGroup;
+			children = (
+				2A0F03B01510F28F00053BF4 /* MidpointFinderTests.h */,
+				2A0F03B11510F28F00053BF4 /* MidpointFinderTests.mm */,
+				2A0F03BF15110A1600053BF4 /* SingleLinkedListReverserTests.h */,
+				2A0F03C015110A1600053BF4 /* SingleLinkedListReverserTests.mm */,
+				2A0F03CA151294E500053BF4 /* SingleLinkedListLoopTesterTests.h */,
+				2A0F03CB151294E500053BF4 /* SingleLinkedListLoopTesterTests.mm */,
+				2A0F03D41512985C00053BF4 /* CharListBuilder.h */,
+				2A0F03D51512985C00053BF4 /* CharListBuilder.mm */,
+				2A0F03DA1512B5AA00053BF4 /* SingleLinkedLinkTests.h */,
+				2A0F03DB1512B5AA00053BF4 /* SingleLinkedLinkTests.mm */,
+			);
+			name = "Linked Lists";
+			sourceTree = "<group>";
+		};
+		2ADC1B0C1504E26D00371794 = {
+			isa = PBXGroup;
+			children = (
+				2ADC1B1C1504E26D00371794 /* Unit Test Test */,
+				2ADC1B301504E26D00371794 /* Unit Test TestTests */,
+				2ADC1B191504E26D00371794 /* Frameworks */,
+				2ADC1B181504E26D00371794 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ADC1B181504E26D00371794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ADC1B171504E26D00371794 /* libUnit Test Test.a */,
+				2ADC1B271504E26D00371794 /* Unit Test TestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ADC1B191504E26D00371794 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ADC1B1A1504E26D00371794 /* Foundation.framework */,
+				2ADC1B281504E26D00371794 /* SenTestingKit.framework */,
+				2ADC1B2A1504E26D00371794 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2ADC1B1C1504E26D00371794 /* Unit Test Test */ = {
+			isa = PBXGroup;
+			children = (
+				2A0F03AE1510F20A00053BF4 /* Linked Lists */,
+				2A0F038F150FABFB00053BF4 /* Duff's Device */,
+				2A0F03A21510D49800053BF4 /* Fibonacci */,
+				2ADC1B1F1504E26D00371794 /* Unit_Test_Test.h */,
+				2ADC1B201504E26D00371794 /* Unit_Test_Test.m */,
+				2ADC1B1D1504E26D00371794 /* Supporting Files */,
+				2A0F03A31510D4AC00053BF4 /* Rectangles */,
+			);
+			path = "Unit Test Test";
+			sourceTree = "<group>";
+		};
+		2ADC1B1D1504E26D00371794 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ADC1B1E1504E26D00371794 /* Unit Test Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2ADC1B301504E26D00371794 /* Unit Test TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A0F03AF1510F27000053BF4 /* Linked Lists */,
+				2A0F0397150FADD400053BF4 /* IteratorTests.h */,
+				2A0F0398150FADD400053BF4 /* IteratorTests.m */,
+				2ADC1B551504F55000371794 /* RectangleIntersectionCheckerTest.h */,
+				2ADC1B561504F55000371794 /* RectangleIntersectionCheckerTest.m */,
+				2A0F03A41510D68F00053BF4 /* Fibonacci */,
+				2ADC1B361504E26D00371794 /* Unit_Test_TestTests.h */,
+				2ADC1B371504E26D00371794 /* Unit_Test_TestTests.m */,
+				2ADC1B311504E26D00371794 /* Supporting Files */,
+			);
+			path = "Unit Test TestTests";
+			sourceTree = "<group>";
+		};
+		2ADC1B311504E26D00371794 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ADC1B321504E26D00371794 /* Unit Test TestTests-Info.plist */,
+				2ADC1B331504E26D00371794 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2ADC1B151504E26D00371794 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADC1B471504E3C800371794 /* FibonacciGenerator.h in Headers */,
+				2ADC1B5D1504F5FB00371794 /* RectangleIntersectionChecker.h in Headers */,
+				2ADC1B611504F74800371794 /* Rectangle.h in Headers */,
+				2ADC1B641504FEFB00371794 /* CppIntArrayFibonacciGenerator.h in Headers */,
+				2A0F0392150FAC3200053BF4 /* Iterator.h in Headers */,
+				2A0F0395150FACC200053BF4 /* SimpleIterator.h in Headers */,
+				2A0F039C150FB36700053BF4 /* DuffsDeviceIterator.h in Headers */,
+				2A0F03A0150FBC7F00053BF4 /* IteratorBuilders.h in Headers */,
+				2A0F03A61510DB0800053BF4 /* CppStlArrayFibonacciGenerator.h in Headers */,
+				2A0F03B41510F31900053BF4 /* MidpointFinder.h in Headers */,
+				2A0F03BB151107D100053BF4 /* SingleLinkedList.h in Headers */,
+				2A0F03C315110ACF00053BF4 /* SingleLinkedListReverser.h in Headers */,
+				2A0F03CE1512961100053BF4 /* SingleLinkedListLoopTester.h in Headers */,
+				2A0F03D31512981D00053BF4 /* LinkedListTypes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2ADC1B161504E26D00371794 /* Unit Test Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ADC1B3B1504E26D00371794 /* Build configuration list for PBXNativeTarget "Unit Test Test" */;
+			buildPhases = (
+				2ADC1B131504E26D00371794 /* Sources */,
+				2ADC1B141504E26D00371794 /* Frameworks */,
+				2ADC1B151504E26D00371794 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unit Test Test";
+			productName = "Unit Test Test";
+			productReference = 2ADC1B171504E26D00371794 /* libUnit Test Test.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2ADC1B261504E26D00371794 /* Unit Test TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ADC1B3E1504E26D00371794 /* Build configuration list for PBXNativeTarget "Unit Test TestTests" */;
+			buildPhases = (
+				2ADC1B221504E26D00371794 /* Sources */,
+				2ADC1B231504E26D00371794 /* Frameworks */,
+				2ADC1B241504E26D00371794 /* Resources */,
+				2ADC1B251504E26D00371794 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ADC1B2E1504E26D00371794 /* PBXTargetDependency */,
+			);
+			name = "Unit Test TestTests";
+			productName = "Unit Test TestTests";
+			productReference = 2ADC1B271504E26D00371794 /* Unit Test TestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ADC1B0E1504E26D00371794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2ADC1B111504E26D00371794 /* Build configuration list for PBXProject "Unit Test Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2ADC1B0C1504E26D00371794;
+			productRefGroup = 2ADC1B181504E26D00371794 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ADC1B161504E26D00371794 /* Unit Test Test */,
+				2ADC1B261504E26D00371794 /* Unit Test TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ADC1B241504E26D00371794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADC1B351504E26D00371794 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ADC1B251504E26D00371794 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ADC1B131504E26D00371794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADC1B211504E26D00371794 /* Unit_Test_Test.m in Sources */,
+				2ADC1B481504E3C800371794 /* FibonacciGenerator.m in Sources */,
+				2ADC1B5E1504F5FB00371794 /* RectangleIntersectionChecker.m in Sources */,
+				2ADC1B621504F74800371794 /* Rectangle.m in Sources */,
+				2ADC1B661504FF1800371794 /* CppIntArrayFibonacciGenerator.mm in Sources */,
+				2A0F0396150FACC200053BF4 /* SimpleIterator.m in Sources */,
+				2A0F039D150FB36700053BF4 /* DuffsDeviceIterator.m in Sources */,
+				2A0F03A1150FBC7F00053BF4 /* IteratorBuilders.m in Sources */,
+				2A0F03A81510DB1E00053BF4 /* CppStlArrayFibonacciGenerator.mm in Sources */,
+				2A0F03B61510F32600053BF4 /* MidpointFinder.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADC1B221504E26D00371794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADC1B381504E26D00371794 /* Unit_Test_TestTests.m in Sources */,
+				2ADC1B511504E59A00371794 /* FibonnaciGeneratorTests.m in Sources */,
+				2ADC1B5A1504F5D100371794 /* RectangleIntersectionCheckerTest.m in Sources */,
+				2ADC1B6B1505005200371794 /* CPPFibonacciGeneratorTests.mm in Sources */,
+				2A0F0399150FADD400053BF4 /* IteratorTests.m in Sources */,
+				2A0F03AD1510DC4D00053BF4 /* CppStlArrayFibonacciGeneratorTests.mm in Sources */,
+				2A0F03B21510F28F00053BF4 /* MidpointFinderTests.mm in Sources */,
+				2A0F03C115110A1700053BF4 /* SingleLinkedListReverserTests.mm in Sources */,
+				2A0F03CC151294E500053BF4 /* SingleLinkedListLoopTesterTests.mm in Sources */,
+				2A0F03D61512985D00053BF4 /* CharListBuilder.mm in Sources */,
+				2A0F03DC1512B5AA00053BF4 /* SingleLinkedLinkTests.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ADC1B2E1504E26D00371794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ADC1B161504E26D00371794 /* Unit Test Test */;
+			targetProxy = 2ADC1B2D1504E26D00371794 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2ADC1B331504E26D00371794 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ADC1B341504E26D00371794 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2ADC1B391504E26D00371794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2ADC1B3A1504E26D00371794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ADC1B3C1504E26D00371794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Unit_Test_Test.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unit Test Test/Unit Test Test-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2ADC1B3D1504E26D00371794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Unit_Test_Test.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unit Test Test/Unit Test Test-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2ADC1B3F1504E26D00371794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unit Test Test/Unit Test Test-Prefix.pch";
+				INFOPLIST_FILE = "Unit Test TestTests/Unit Test TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2ADC1B401504E26D00371794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unit Test Test/Unit Test Test-Prefix.pch";
+				INFOPLIST_FILE = "Unit Test TestTests/Unit Test TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ADC1B111504E26D00371794 /* Build configuration list for PBXProject "Unit Test Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADC1B391504E26D00371794 /* Debug */,
+				2ADC1B3A1504E26D00371794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ADC1B3B1504E26D00371794 /* Build configuration list for PBXNativeTarget "Unit Test Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADC1B3C1504E26D00371794 /* Debug */,
+				2ADC1B3D1504E26D00371794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ADC1B3E1504E26D00371794 /* Build configuration list for PBXNativeTarget "Unit Test TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADC1B3F1504E26D00371794 /* Debug */,
+				2ADC1B401504E26D00371794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ADC1B0E1504E26D00371794 /* Project object */;
+}
