@@ -29,6 +29,15 @@
 		2A0F03D31512981D00053BF4 /* LinkedListTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0F03D21512981D00053BF4 /* LinkedListTypes.h */; };
 		2A0F03D61512985D00053BF4 /* CharListBuilder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F03D51512985C00053BF4 /* CharListBuilder.mm */; };
 		2A0F03DC1512B5AA00053BF4 /* SingleLinkedLinkTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F03DB1512B5AA00053BF4 /* SingleLinkedLinkTests.mm */; };
+		2A0F03DF1513C33700053BF4 /* SecondHighestElementFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0F03DE1513C33700053BF4 /* SecondHighestElementFinder.h */; };
+		2A0F03E31513C3A900053BF4 /* SecondHighestElementFinderTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F03E21513C3A900053BF4 /* SecondHighestElementFinderTests.mm */; };
+		2A0F03E51513C60A00053BF4 /* SecondHighestElementFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F03E41513C60A00053BF4 /* SecondHighestElementFinder.cpp */; };
+		2A0F03EA151766EB00053BF4 /* BinaryTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F03E9151766EB00053BF4 /* BinaryTreeTests.m */; };
+		2A0F03ED1517678700053BF4 /* BinaryTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0F03EB1517678700053BF4 /* BinaryTree.h */; };
+		2A0F03EE1517678700053BF4 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F03EC1517678700053BF4 /* BinaryTree.m */; };
+		2A0F03F315178D0F00053BF4 /* QuickSorterTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F03F215178D0F00053BF4 /* QuickSorterTests.mm */; };
+		2A0F03F515178D2B00053BF4 /* QuickSorter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0F03F415178D2B00053BF4 /* QuickSorter.h */; };
+		2A0F03F715178D3600053BF4 /* QuickSorter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A0F03F615178D3600053BF4 /* QuickSorter.mm */; };
 		2ADC1B1B1504E26D00371794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADC1B1A1504E26D00371794 /* Foundation.framework */; };
 		2ADC1B211504E26D00371794 /* Unit_Test_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC1B201504E26D00371794 /* Unit_Test_Test.m */; };
 		2ADC1B291504E26D00371794 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADC1B281504E26D00371794 /* SenTestingKit.framework */; };
@@ -90,6 +99,18 @@
 		2A0F03D51512985C00053BF4 /* CharListBuilder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CharListBuilder.mm; sourceTree = "<group>"; };
 		2A0F03DA1512B5AA00053BF4 /* SingleLinkedLinkTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLinkedLinkTests.h; sourceTree = "<group>"; };
 		2A0F03DB1512B5AA00053BF4 /* SingleLinkedLinkTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SingleLinkedLinkTests.mm; sourceTree = "<group>"; };
+		2A0F03DE1513C33700053BF4 /* SecondHighestElementFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondHighestElementFinder.h; sourceTree = "<group>"; };
+		2A0F03E11513C3A900053BF4 /* SecondHighestElementFinderTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondHighestElementFinderTests.h; sourceTree = "<group>"; };
+		2A0F03E21513C3A900053BF4 /* SecondHighestElementFinderTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SecondHighestElementFinderTests.mm; sourceTree = "<group>"; };
+		2A0F03E41513C60A00053BF4 /* SecondHighestElementFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SecondHighestElementFinder.cpp; sourceTree = "<group>"; };
+		2A0F03E8151766EB00053BF4 /* BinaryTreeTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTreeTests.h; sourceTree = "<group>"; };
+		2A0F03E9151766EB00053BF4 /* BinaryTreeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeTests.m; sourceTree = "<group>"; };
+		2A0F03EB1517678700053BF4 /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
+		2A0F03EC1517678700053BF4 /* BinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
+		2A0F03F115178D0F00053BF4 /* QuickSorterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSorterTests.h; sourceTree = "<group>"; };
+		2A0F03F215178D0F00053BF4 /* QuickSorterTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QuickSorterTests.mm; sourceTree = "<group>"; };
+		2A0F03F415178D2B00053BF4 /* QuickSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSorter.h; sourceTree = "<group>"; };
+		2A0F03F615178D3600053BF4 /* QuickSorter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QuickSorter.mm; sourceTree = "<group>"; };
 		2ADC1B171504E26D00371794 /* libUnit Test Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUnit Test Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ADC1B1A1504E26D00371794 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2ADC1B1E1504E26D00371794 /* Unit Test Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Unit Test Test-Prefix.pch"; sourceTree = "<group>"; };
@@ -222,6 +243,60 @@
 			name = "Linked Lists";
 			sourceTree = "<group>";
 		};
+		2A0F03DD1513C30900053BF4 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				2A0F03DE1513C33700053BF4 /* SecondHighestElementFinder.h */,
+				2A0F03E41513C60A00053BF4 /* SecondHighestElementFinder.cpp */,
+			);
+			name = Arrays;
+			sourceTree = "<group>";
+		};
+		2A0F03E01513C39100053BF4 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				2A0F03E11513C3A900053BF4 /* SecondHighestElementFinderTests.h */,
+				2A0F03E21513C3A900053BF4 /* SecondHighestElementFinderTests.mm */,
+			);
+			name = Arrays;
+			sourceTree = "<group>";
+		};
+		2A0F03E6151766B000053BF4 /* Binary Trees */ = {
+			isa = PBXGroup;
+			children = (
+				2A0F03EB1517678700053BF4 /* BinaryTree.h */,
+				2A0F03EC1517678700053BF4 /* BinaryTree.m */,
+			);
+			name = "Binary Trees";
+			sourceTree = "<group>";
+		};
+		2A0F03E7151766C600053BF4 /* Binary Trees */ = {
+			isa = PBXGroup;
+			children = (
+				2A0F03E8151766EB00053BF4 /* BinaryTreeTests.h */,
+				2A0F03E9151766EB00053BF4 /* BinaryTreeTests.m */,
+			);
+			name = "Binary Trees";
+			sourceTree = "<group>";
+		};
+		2A0F03EF15178CE100053BF4 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				2A0F03F415178D2B00053BF4 /* QuickSorter.h */,
+				2A0F03F615178D3600053BF4 /* QuickSorter.mm */,
+			);
+			name = Sorting;
+			sourceTree = "<group>";
+		};
+		2A0F03F015178CF100053BF4 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				2A0F03F115178D0F00053BF4 /* QuickSorterTests.h */,
+				2A0F03F215178D0F00053BF4 /* QuickSorterTests.mm */,
+			);
+			name = Sorting;
+			sourceTree = "<group>";
+		};
 		2ADC1B0C1504E26D00371794 = {
 			isa = PBXGroup;
 			children = (
@@ -254,9 +329,12 @@
 		2ADC1B1C1504E26D00371794 /* Unit Test Test */ = {
 			isa = PBXGroup;
 			children = (
+				2A0F03DD1513C30900053BF4 /* Arrays */,
+				2A0F03E6151766B000053BF4 /* Binary Trees */,
 				2A0F03AE1510F20A00053BF4 /* Linked Lists */,
 				2A0F038F150FABFB00053BF4 /* Duff's Device */,
 				2A0F03A21510D49800053BF4 /* Fibonacci */,
+				2A0F03EF15178CE100053BF4 /* Sorting */,
 				2ADC1B1F1504E26D00371794 /* Unit_Test_Test.h */,
 				2ADC1B201504E26D00371794 /* Unit_Test_Test.m */,
 				2ADC1B1D1504E26D00371794 /* Supporting Files */,
@@ -276,12 +354,15 @@
 		2ADC1B301504E26D00371794 /* Unit Test TestTests */ = {
 			isa = PBXGroup;
 			children = (
+				2A0F03E01513C39100053BF4 /* Arrays */,
+				2A0F03E7151766C600053BF4 /* Binary Trees */,
 				2A0F03AF1510F27000053BF4 /* Linked Lists */,
 				2A0F0397150FADD400053BF4 /* IteratorTests.h */,
 				2A0F0398150FADD400053BF4 /* IteratorTests.m */,
 				2ADC1B551504F55000371794 /* RectangleIntersectionCheckerTest.h */,
 				2ADC1B561504F55000371794 /* RectangleIntersectionCheckerTest.m */,
 				2A0F03A41510D68F00053BF4 /* Fibonacci */,
+				2A0F03F015178CF100053BF4 /* Sorting */,
 				2ADC1B361504E26D00371794 /* Unit_Test_TestTests.h */,
 				2ADC1B371504E26D00371794 /* Unit_Test_TestTests.m */,
 				2ADC1B311504E26D00371794 /* Supporting Files */,
@@ -319,6 +400,9 @@
 				2A0F03C315110ACF00053BF4 /* SingleLinkedListReverser.h in Headers */,
 				2A0F03CE1512961100053BF4 /* SingleLinkedListLoopTester.h in Headers */,
 				2A0F03D31512981D00053BF4 /* LinkedListTypes.h in Headers */,
+				2A0F03DF1513C33700053BF4 /* SecondHighestElementFinder.h in Headers */,
+				2A0F03ED1517678700053BF4 /* BinaryTree.h in Headers */,
+				2A0F03F515178D2B00053BF4 /* QuickSorter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +513,9 @@
 				2A0F03A1150FBC7F00053BF4 /* IteratorBuilders.m in Sources */,
 				2A0F03A81510DB1E00053BF4 /* CppStlArrayFibonacciGenerator.mm in Sources */,
 				2A0F03B61510F32600053BF4 /* MidpointFinder.mm in Sources */,
+				2A0F03E51513C60A00053BF4 /* SecondHighestElementFinder.cpp in Sources */,
+				2A0F03EE1517678700053BF4 /* BinaryTree.m in Sources */,
+				2A0F03F715178D3600053BF4 /* QuickSorter.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +534,9 @@
 				2A0F03CC151294E500053BF4 /* SingleLinkedListLoopTesterTests.mm in Sources */,
 				2A0F03D61512985D00053BF4 /* CharListBuilder.mm in Sources */,
 				2A0F03DC1512B5AA00053BF4 /* SingleLinkedLinkTests.mm in Sources */,
+				2A0F03E31513C3A900053BF4 /* SecondHighestElementFinderTests.mm in Sources */,
+				2A0F03EA151766EB00053BF4 /* BinaryTreeTests.m in Sources */,
+				2A0F03F315178D0F00053BF4 /* QuickSorterTests.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
